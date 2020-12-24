@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.table"
+        applicationId "com.pranav.table"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
