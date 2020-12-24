@@ -109,20 +109,22 @@ int scor;
         if(e==4) {
             for (int i = 0; i < 10; i++) {
                 questions[i] = new question(3);
-                while(check.contains(questions[i].prop_id) == false) {
+
+                while(check.contains(questions[i].prop_id)) {
                     questions[i] = new question(3);
-                    check.add(questions[i].prop_id);
                 }
+                check.add(questions[i].prop_id);
                 selected_string[i] = "no answer selected";
             }
         }
         else{
             for (int i = 0; i < 10; i++) {
                 questions[i] = new question(16);
-                while(check.contains(questions[i].prop_id) == false) {
+
+                while(check.contains(questions[i].prop_id)) {
                     questions[i] = new question(16);
-                    check.add(questions[i].prop_id);
                 }
+                check.add(questions[i].prop_id);
                 selected_string[i] = "no answer selected";
             }
         }

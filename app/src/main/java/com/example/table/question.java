@@ -63,7 +63,6 @@ public class question {
          op1id  =rand[1];
          op2id = rand[2];
          op3id = rand[3];
-            prop_id = (pro_id*(max+1))+pairs[x][0];
         }
         else{
             int[]rndm = random_pair.random_pair(39, 0);
@@ -71,10 +70,9 @@ public class question {
              op1id  =rndm[1];
              op2id = rndm[2];
              op3id = rndm[3];
-            prop_id = (pro_id*(max+1))+pairs[x][0];
         }
+        prop_id = (pro_id*(max+1))+pairs[x][0];
 
-prop_id = (pro_id*(max+1))+pairs[x][0];
         String q;
         q = Ptable.get_property(pro_id, pairs[x][0]);
         String q1 = questions[x];
