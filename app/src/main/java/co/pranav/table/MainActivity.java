@@ -1,10 +1,8 @@
-package com.example.table;
+package co.pranav.table;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,13 +10,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.pranav.table.R;
 
 import java.util.HashSet;
-
-import static com.example.table.random_pair.random_pair;
 
 public  class MainActivity extends AppCompatActivity {
     RadioButton radiobutton1;
@@ -34,7 +30,7 @@ public  class MainActivity extends AppCompatActivity {
     RadioGroup radio2;
     RadioGroup radio3;
     Button score;
-    int[] rand = random_pair(23,0);
+    int[] rand = random_pair.random_pair(23,0);
     int a = rand[0];
     int c = rand[1];
     int d = rand[2];

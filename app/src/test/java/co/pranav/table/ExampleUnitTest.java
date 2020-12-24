@@ -1,4 +1,4 @@
-package com.example.table;
+package co.pranav.table;
 
 import org.junit.Test;
 

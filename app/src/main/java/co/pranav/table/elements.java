@@ -1,4 +1,4 @@
-package com.example.table;
+package co.pranav.table;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;

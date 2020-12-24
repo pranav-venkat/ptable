@@ -1,4 +1,4 @@
-package com.example.table;
+package co.pranav.table;
 
 public class random_question {
     int[] rndm_pair;

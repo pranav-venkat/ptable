@@ -1,4 +1,4 @@
-package com.example.table;
+package co.pranav.table;
 
 import android.content.Context;
 
